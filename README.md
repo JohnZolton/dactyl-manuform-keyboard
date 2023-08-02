@@ -36,4 +36,4 @@ I did 3 rows and 6 columns with a 5 key thumb cluster. I got tripped up because 
 ## pin map
 ![pinoutmap](picomap.png)
 
-connect 3v3 to 3v3, ground to ground and SPIO/GP3 to SPIO/GP3, this works with a TRS (male to male audio) cable
+On the two boards, connect 3v3 to 3v3, ground to ground and SPIO/GP3 to SPIO/GP3, this works with a TRS (male to male audio) cable
