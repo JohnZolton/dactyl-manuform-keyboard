@@ -22,6 +22,11 @@ idk why but just using the cli flash method never worked for me, had to create t
 
 you only need to flash once for the whole board, you dont need to flash each piece individually.
 
+After soldering all the thumb keys I discovered they don't match the order on config.qmk.fm so I handle the error by adjusting the layout like so: 
+
+![thumb adjustment](dact_manu_thumb_map.png)
+
+
 
 ## wiring
 I did 3 rows and 6 columns with a 5 key thumb cluster. I got tripped up because I assumed the coding would be for 4 rows x 6 cols but it defaults to use an additional row. So the center column of the thumb cluster is actually two separate rows of the same column (lower switch goes to pin labled "space" in the pinout diagram, all others go to 'thumb' pin GP10).
